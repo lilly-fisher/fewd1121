@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-	<title> The Best Chocolate Chip Cookies </title>
-</head>
-<body>
-	<h1> The Best Chocolate Chip Cookies </h1>
+The Best Chocolate Chip Cookies 
+
+he Best Chocolate Chip Cookies </h1>
 cookies.jpg (*hint: <img> tag, this is a bonus)
 
 Recipe by: Bonnie Owens
