@@ -1,0 +1,34 @@
+#container{
+	width: 90%
+	margin: 0 auto;
+	padding: 10px 10px;
+	background-color: lightgray;
+}
+.p-head{
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin: 3px;
+}
+.p-one{
+	color:blue;
+	background-color: #ff3c1a;
+	text-align: center;
+	padding: 2px;
+	margin: 6px;
+}
+.p-two{
+	color: green;
+	background-color: #ff3c1a;
+	text-align: center;
+	padding: 2px;
+	margin: 6px;
+}
+.p-three{
+	color: yellow;
+	background-color: #ff3c1a;
+	text-align: center;
+	padding: 2px;
+	margin: 6px;
+}
+
