@@ -13,10 +13,12 @@ body{
 
 h1 {
 	color: #aa0000;
+	font-weight: lighter;
 }
 
 h2 {
 	color: black;
+	font-weight: lighter;
 }
 
 h3 a {
@@ -24,6 +26,7 @@ h3 a {
 	text-decoration: underline;
 	color: rgb(221, 221, 221);
 	padding: 5px;
+	font-weight: lighter;
 }
 a:hover {
 	color: #aa0000;
