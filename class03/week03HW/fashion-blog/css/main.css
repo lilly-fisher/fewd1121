@@ -3,11 +3,18 @@ body{
 	padding: 54px;
 	font-family: Lato;
 	line-height: 1.5;
+	border-left: solid #dddddd 6px;
+}
+.container{
+	width: 720px;
+	padding: 54px;
+	line-height: 1.5;
 }
 
 h1 {
 	color: #aa0000;
 }
+
 h2 {
 	color: black;
 }
@@ -18,11 +25,17 @@ h3 a {
 	color: rgb(221, 221, 221);
 	padding: 5px;
 }
+a:hover {
+	color: #aa0000;
+}
 
-a.classarticle{
+a.alignright{
 	color: #aa0000;
 	text-decoration: none;
+	padding-bottom: 20px;
+	font-weight: bold;
 }
+
 
 .alignright {
   float: right;
@@ -31,6 +44,7 @@ a.classarticle{
 
 .article{
 	margin-top: 50px;
+	border-bottom: solid #cccccc 1px;
 }
 .date{
 	color: #cccccc;
@@ -40,4 +54,18 @@ a.classarticle{
 .sectiontitle{
 	color:black;
 	font-size: 20pt;
+}
+footer{
+	padding-top: 30px;
+}
+
+footer a {
+	color: #aa0000;
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	border-right: solid #cccccc 1px;
+}
+#copyright{
+	color: #bbbbbb
 }
