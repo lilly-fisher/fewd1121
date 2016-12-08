@@ -2,6 +2,7 @@ body{
 	width: 720px;
 	padding: 54px;
 	font-family: Lato;
+	line-height: 1.5;
 }
 
 h1 {
@@ -14,9 +15,29 @@ h2 {
 h3 a {
 	display: inline-block;
 	text-decoration: underline;
-	color: #DDDDDD
+	color: rgb(221, 221, 221);
+	padding: 5px;
 }
 
-a {
-	color:  #DD0000
+a.classarticle{
+	color: #aa0000;
+	text-decoration: none;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+.article{
+	margin-top: 50px;
+}
+.date{
+	color: #cccccc;
+	font-size: 20pt;
+}
+
+.sectiontitle{
+	color:black;
+	font-size: 20pt;
 }
