@@ -75,9 +75,14 @@ header {
 background-color: #033048;
 height: 100px;
 }
+main {
+  background-color: white;
+  height: 100px;
+}
 
 footer {
-
+background-color: black;
+height: 100px;
 }
 
 /******************************************
