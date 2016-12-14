@@ -39,13 +39,6 @@ body {
 }
 
 
-}
-.bodytext{
-  color: #606161
-  font-weight: 300;
-  font-size: 24px;
-}
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -80,43 +73,98 @@ h1{
   float: left;
 }
 main{
-  background-color: white;
+  background-color: #f0efef;
 }
 .clearfix: after {
   content: "";
   display: table;
   clear: both;
 }
+.maintitle{
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.bodytext{
+  color: #606161;
+  font-weight: 300;
+  font-size: 24px;
+}
+.post{
+  border-bottom: solid 2px #033048;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.readmore{
+  color: #033048;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.readmore a {
+  text-decoration: none;
+  float: right; 
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.asidetitle{
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.categorieslist{
+  color: #033048;
+  font-size: 24px;
+  font-weight: 300;
+}
+.abouttext{
+  font-weight: 300;
+  font-size: 22px;
+}
+.learnmore{
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+  margin-bottom: 15px;
+}
 aside {
   background-color: yellow;
-  height: 100px;
+  width:  240px;
   clear: both;
 }
-
 main article {
   float: left;
   width: 75%;
-  height: 300px;
-  background-color: gray;
+  background-color: #f0efef;
   clear: none;
 }
 main aside{
   float: left;
-  height: 300px;
-  background-color: orange;
+  background-color: #f0efef;
   width: 25%;
   clear: none;
 }
-
 footer {
 background-color: black;
 height: 100px;
 }
-
+.button{
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+}
+.blue{
+  background-color: #033048;
+  color: #fff;
+  font-size: 24px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
