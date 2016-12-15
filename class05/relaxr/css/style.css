@@ -132,8 +132,12 @@ main{
 }
 aside {
   background-color: yellow;
-  width:  240px;
   clear: both;
+}
+#bottomaside{
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
 }
 main article {
   float: left;
@@ -149,20 +153,38 @@ main aside{
 }
 footer {
 background-color: black;
-height: 100px;
+text-align: center;
+padding: 65px 0 45px;
+}
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 26px 75px;
+}
+.logo{
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9e42e;
+  margin-bottom: 68px;
 }
 .button{
   border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
   width: 280px;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
   display: block;
   margin: 0 auto;
-}
-.blue{
   background-color: #033048;
   color: #fff;
   font-size: 24px;
+}
+.copyright{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
 }
 /******************************************
 /* ADDITIONAL STYLES
