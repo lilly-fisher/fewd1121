@@ -55,3 +55,25 @@ article h1 {
 	text-align: center;
 	padding: 5px 0;
 }
+@media (max-width: 480px){
+	article {
+		float: none;
+		width: 95%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+		margin-left: 2%
+	}
+	article:nth-child(1) {
+		float: none;
+		width: 95%;
+		margin-bottom: 2%;
+	}
+	header h1{
+		float: none;
+		text-align: center;
+	}
+	header nav{
+		float: none;
+		text-align: center;
+	}
+}
