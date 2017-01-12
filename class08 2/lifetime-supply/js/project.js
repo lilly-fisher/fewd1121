@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 //variables for interactive elements//
 var age = document.getElementById('age');
 var maxAge = document.getElementById('max-age');
@@ -27,3 +29,5 @@ clickMe.onclick = function(){
 	clickMe.innerHTML = "done!";
 	console.log(myDrink);
 }
+
+});
