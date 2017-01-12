@@ -1,0 +1,65 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 100px;
+	background-color: lightgrey;
+	border: solid grey 1px;
+	margin: 14px;
+	font-family: Courier, serif;
+}
+
+.vertical{
+	float: left;
+	width: 25%;
+	border: solid black 1px;
+}
+
+.vertical h1{
+	font-weight: bold;
+}
+.vertical p {
+	padding: 15px;
+}
+
+article{
+	height: 400px;
+	width: 47%;
+	margin: 14px;
+	background-color: lightgrey;
+	border: solid grey 1px;
+}
+
+section{
+	height: 200px;
+	width: 31%;
+	margin: 14px;
+	background-color: lightgrey;
+	border: solid grey 1px;
+}
+
+footer{
+	clear: both;
+	height: 100px;
+	background-color: lightgrey;
+	border: solid grey 1px;
+	margin: 14px;
+}
+#one{
+	float: left;
+}
+#two{
+	float: right;
+}
+
+#first{
+	float: left;
+}
+#second{
+	float: left;
+}
+#third{
+	float: right;
+}

@@ -4,8 +4,48 @@
 	<title>Our First JavaScript</title>
 </head>
 <body>
-
 	<h1>Hello, World!</h1>
+<script type="text/javascript">
+	console.log("Running ");
+	var fname = "Lilly";
+	var lname = "Fisher";
+	var num1 = 10 * 10;
+	var num2 = 100 / 10;
+	var	num3 = 50-17;
+	var num4 = 50+17;
+	console.log("Hi Lil, Love you!");
 
+	function hello() {
+		var greeting = 'hello Lilly';
+		alert(greeting);
+		if (fname === "Lilly") {
+			hello();
+		}
+		alert(fname);
+		confirm("What's up girl?");
+		
+		document.getElementbyID ("myID") .onclick = function(){
+			document.getElementbyID("myID").innerHTML = "new text";
+			document.getElementbyID("myID").style.color = "red";
+		}
+	}
+		//funtion definition
+		function dosomethings(){
+			document.write("<h2>This is some new code</h2>");
+			document.write(num1);
+			document.write("<br>");
+			document.write(num2);
+			document.write("<br>");
+			document.write (num3);
+			document.write("<br>");
+			document.write(num4);
+			document.write("<br>");
+			document.write(fname);
+			document.write("<br>");
+			document.write(lname);
+		}
+		//function call
+		dosomethings();
+	</script>
 </body>
 </html>
