@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 //variables for interactive elements//
 var age = document.getElementById('age');
+var age = $('#age')
 var maxAge = document.getElementById('max-age');
 var item = document.getElementById('item');
 var numberPerDay = document.getElementById('num-per-day');

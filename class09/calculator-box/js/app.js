@@ -11,3 +11,34 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+$(document).ready(function(){
+
+var total = 0
+
+$('#a10').click(function(){
+	total = total + 10;
+	$('#out').html(total);
+});
+
+$('#a20').click(function(){
+	total = total + 20;
+	$('#out').html(total);
+});
+
+$('#a30').click(function(){
+	total = total + 30;
+	$('#out').html(total);
+});
+
+$('#red').click(function(){
+	$('#out').css('background-color', 'red');
+});
+
+$('#out').click(function(){
+	total = 0;
+	console.log('work work work work work');
+	$('#out').html(total).css('background-color', 'white');
+	console.log('also working?')
+});
+
+});
