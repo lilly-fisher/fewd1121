@@ -1,0 +1,12 @@
+h1{
+	font-weight: bold;
+	padding: 15px;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+	border: solid black 1px;
+	display: inline-block;
+}
