@@ -13,6 +13,13 @@ $(document).ready(function(){
 	});
 
 	$('.box').click(function(){
-		$('.box:first-child').css('height', '500px');
+		$('section:nth-child(2)').css('height', '500px');
+	});
+
+	$('.box').click(function(){
+		$(this).hide();
+	});
+	$('button').click(function(){
+		$('.box').slideToggle('slow');
 	});
 });
