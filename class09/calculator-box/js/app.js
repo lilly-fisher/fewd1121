@@ -34,6 +34,26 @@ $('#red').click(function(){
 	$('#out').css('background-color', 'red');
 });
 
+$('#blue').click(function(){
+	$('#out').css('background-color', 'blue');
+	console.log('blue should work')
+});
+
+$('#n10').click(function(){
+	total = total - 10;
+	$('#out').html(total);
+});
+
+$('#n20').click(function(){
+	total = total - 20;
+	$('#out').html(total);
+});
+
+$('#n30').click(function(){
+	total = total - 30;
+	$('#out').html(total);
+});
+
 $('#out').click(function(){
 	total = 0;
 	console.log('work work work work work');
